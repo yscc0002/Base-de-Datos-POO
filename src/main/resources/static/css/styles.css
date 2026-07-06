@@ -973,6 +973,13 @@ input, select, textarea, button {
     transform: translateY(0) scale(1);
 }
 
+.modal-content form {
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    flex: 1;
+}
+
 .modal-large {
     max-width: 850px;
 }
